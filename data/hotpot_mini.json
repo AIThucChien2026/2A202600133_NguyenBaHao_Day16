@@ -1,7 +1,7 @@
 [
   {
     "qid": "hp1",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "question": "Which university did the author of The Hobbit teach at?",
     "gold_answer": "Oxford University",
     "context": [
@@ -33,7 +33,7 @@
   },
   {
     "qid": "hp3",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "question": "What instrument did the composer of The Four Seasons mainly play?",
     "gold_answer": "violin",
     "context": [
@@ -48,24 +48,36 @@
     ]
   },
   {
-    "qid": "hp4",
-    "difficulty": "medium",
-    "question": "Which ocean borders the country whose capital is Lima?",
-    "gold_answer": "Pacific Ocean",
+    "difficulty": "hard",
+    "question": "What is the profession of the person who directed the movie starring the lead actor of 'Mission: Impossible - Ghost Protocol'?",
+    "gold_answer": "film director",
     "context": [
       {
-        "title": "Lima",
-        "text": "Lima is the capital city of Peru."
+        "title": "Mission: Impossible - Ghost Protocol",
+        "text": "The lead actor of Mission: Impossible - Ghost Protocol is Tom Cruise."
       },
       {
-        "title": "Peru",
-        "text": "Peru borders the Pacific Ocean."
+        "title": "Tom Cruise movies",
+        "text": "Tom Cruise starred in 'Top Gun: Maverick', which was directed by Joseph Kosinski."
+      },
+      {
+        "title": "Joseph Kosinski",
+        "text": "Joseph Kosinski is an American film director and architect."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Christopher McQuarrie directed Mission: Impossible - Fallout."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Tom Cruise is a famous American actor and producer."
       }
-    ]
+    ],
+    "qid": "hp4"
   },
   {
     "qid": "hp5",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "question": "What field did the scientist who proposed the three laws of motion study in addition to physics?",
     "gold_answer": "mathematics",
     "context": [
@@ -80,20 +92,32 @@
     ]
   },
   {
-    "qid": "hp6",
     "difficulty": "hard",
-    "question": "What sea borders the country where Petra is located?",
-    "gold_answer": "Dead Sea",
+    "question": "What is the capital city of the country where the inventor of the telephone was born?",
+    "gold_answer": "London",
     "context": [
       {
-        "title": "Petra",
-        "text": "Petra is a historical city in Jordan."
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell, the inventor of the telephone, was born in Edinburgh, Scotland."
       },
       {
-        "title": "Jordan",
-        "text": "Jordan borders the Dead Sea to the west."
+        "title": "Scotland",
+        "text": "Scotland is a country that is part of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The capital city of the United Kingdom is London."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Alexander Graham Bell spent much of his life in the United States, whose capital is Washington, D.C."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The telephone was patented in 1876 in Boston, Massachusetts."
       }
-    ]
+    ],
+    "qid": "hp6"
   },
   {
     "qid": "hp7",
@@ -112,19 +136,1943 @@
     ]
   },
   {
-    "qid": "hp8",
     "difficulty": "hard",
-    "question": "Which mountain range contains the highest mountain in the country whose capital is Kathmandu?",
+    "question": "Which ocean borders the country that gifted the Statue of Liberty to the USA?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty was a gift from the people of France to the United States."
+      },
+      {
+        "title": "France geography",
+        "text": "France is a country in Western Europe that borders the Atlantic Ocean and the Mediterranean Sea."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The United States borders the Pacific Ocean to the west and the Atlantic Ocean to the east."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Statue of Liberty is located in New York Harbor."
+      }
+    ],
+    "qid": "hp8"
+  },
+  {
+    "qid": "hp9",
+    "difficulty": "medium",
+    "question": "Which country is the birthplace of the author of Hamlet?",
+    "gold_answer": "England",
+    "context": [
+      {
+        "title": "Hamlet",
+        "text": "Hamlet is a tragedy written by William Shakespeare."
+      },
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was born in England."
+      }
+    ]
+  },
+  {
+    "qid": "hp10",
+    "difficulty": "medium",
+    "question": "What continent is the country located on where the Nile River flows?",
+    "gold_answer": "Africa",
+    "context": [
+      {
+        "title": "Nile River",
+        "text": "The Nile River flows through Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "Egypt is located in Africa."
+      }
+    ]
+  },
+  {
+    "qid": "hp11",
+    "difficulty": "medium",
+    "question": "What profession did the inventor of the telephone have?",
+    "gold_answer": "scientist",
+    "context": [
+      {
+        "title": "Telephone",
+        "text": "The telephone was invented by Alexander Graham Bell."
+      },
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell was a scientist and inventor."
+      }
+    ]
+  },
+  {
+    "qid": "hp12",
+    "difficulty": "medium",
+    "question": "Which ocean lies next to the country where Tokyo is located?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan is an island nation in the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp13",
+    "difficulty": "medium",
+    "question": "What instrument is mainly associated with the composer Mozart?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Mozart",
+        "text": "Wolfgang Amadeus Mozart was a prolific composer."
+      },
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "text": "Mozart was known for playing the piano."
+      }
+    ]
+  },
+  {
+    "qid": "hp14",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the Amazon Rainforest is located?",
+    "gold_answer": "Brasília",
+    "context": [
+      {
+        "title": "Amazon Rainforest",
+        "text": "The Amazon Rainforest is primarily located in Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "The capital of Brazil is Brasília."
+      }
+    ]
+  },
+  {
+    "qid": "hp15",
+    "difficulty": "medium",
+    "question": "What field did Albert Einstein contribute to?",
+    "gold_answer": "physics",
+    "context": [
+      {
+        "title": "Albert Einstein",
+        "text": "Albert Einstein developed the theory of relativity."
+      },
+      {
+        "title": "Theory of Relativity",
+        "text": "The theory of relativity is a concept in physics."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the primary language spoken in the city that hosted the 2016 Summer Olympics?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "2016 Summer Olympics",
+        "text": "The 2016 Summer Olympics were held in Rio de Janeiro."
+      },
+      {
+        "title": "Rio de Janeiro",
+        "text": "Rio de Janeiro is a major city in Brazil."
+      },
+      {
+        "title": "Brazil languages",
+        "text": "The primary and official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The 2020 Summer Olympics were held in Tokyo, where Japanese is spoken."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Spanish is the primary language of most South American countries except Brazil."
+      }
+    ],
+    "qid": "hp16"
+  },
+  {
+    "qid": "hp17",
+    "difficulty": "medium",
+    "question": "What language family does the language spoken in Spain belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The official language of Spain is Spanish."
+      },
+      {
+        "title": "Spanish language",
+        "text": "Spanish is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp18",
+    "difficulty": "easy",
+    "question": "What sport is associated with Lionel Messi?",
+    "gold_answer": "football",
+    "context": [
+      {
+        "title": "Lionel Messi",
+        "text": "Lionel Messi is a professional football player."
+      },
+      {
+        "title": "Football",
+        "text": "Football is a popular sport worldwide."
+      }
+    ]
+  },
+  {
+    "qid": "hp19",
+    "difficulty": "medium",
+    "question": "Which country is the Eiffel Tower located in?",
+    "gold_answer": "France",
+    "context": [
+      {
+        "title": "Eiffel Tower",
+        "text": "The Eiffel Tower is located in Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is the capital of France."
+      }
+    ]
+  },
+  {
+    "qid": "hp20",
+    "difficulty": "easy",
+    "question": "What color is the planet Mars often called?",
+    "gold_answer": "red",
+    "context": [
+      {
+        "title": "Mars",
+        "text": "Mars is often referred to as the Red Planet."
+      },
+      {
+        "title": "Red Planet",
+        "text": "Mars appears red due to iron oxide on its surface."
+      }
+    ]
+  },
+  {
+    "qid": "hp21",
+    "difficulty": "medium",
+    "question": "Which continent is Canada located in?",
+    "gold_answer": "North America",
+    "context": [
+      {
+        "title": "Canada",
+        "text": "Canada is a country in North America."
+      },
+      {
+        "title": "North America",
+        "text": "North America is a continent in the Northern Hemisphere."
+      }
+    ]
+  },
+  {
+    "qid": "hp22",
+    "difficulty": "easy",
+    "question": "What device is used to measure temperature?",
+    "gold_answer": "thermometer",
+    "context": [
+      {
+        "title": "Temperature",
+        "text": "Temperature is measured using a thermometer."
+      },
+      {
+        "title": "Thermometer",
+        "text": "A thermometer measures heat."
+      }
+    ]
+  },
+  {
+    "qid": "hp23",
+    "difficulty": "medium",
+    "question": "What river flows through Paris?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is a city in France."
+      },
+      {
+        "title": "Seine River",
+        "text": "The Seine River flows through Paris."
+      }
+    ]
+  },
+  {
+    "qid": "hp24",
+    "difficulty": "easy",
+    "question": "What gas do plants absorb?",
+    "gold_answer": "carbon dioxide",
+    "context": [
+      {
+        "title": "Plants",
+        "text": "Plants absorb carbon dioxide for photosynthesis."
+      },
+      {
+        "title": "Photosynthesis",
+        "text": "Photosynthesis uses carbon dioxide."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What mountain range is located in the continent where the longest river in the world flows?",
+    "gold_answer": "Atlas Mountains",
+    "context": [
+      {
+        "title": "Longest river",
+        "text": "The Nile River is traditionally considered the longest river in the world."
+      },
+      {
+        "title": "Nile River",
+        "text": "The Nile River flows through northeastern Africa."
+      },
+      {
+        "title": "Mountains of Africa",
+        "text": "The Atlas Mountains are a mountain range in the Maghreb region of North Africa."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Amazon River, the second longest river, flows through South America where the Andes mountains are located."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Himalayas are the highest mountain range in the world, located in Asia."
+      }
+    ],
+    "qid": "hp25"
+  },
+  {
+    "qid": "hp26",
+    "difficulty": "easy",
+    "question": "What is the largest mammal?",
+    "gold_answer": "blue whale",
+    "context": [
+      {
+        "title": "Blue Whale",
+        "text": "The blue whale is the largest mammal."
+      },
+      {
+        "title": "Mammals",
+        "text": "Mammals include whales."
+      }
+    ]
+  },
+  {
+    "qid": "hp27",
+    "difficulty": "medium",
+    "question": "Which country has Berlin as its capital?",
+    "gold_answer": "Germany",
+    "context": [
+      {
+        "title": "Berlin",
+        "text": "Berlin is the capital of Germany."
+      },
+      {
+        "title": "Germany",
+        "text": "Germany is a country in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp28",
+    "difficulty": "easy",
+    "question": "What do bees produce?",
+    "gold_answer": "honey",
+    "context": [
+      {
+        "title": "Bees",
+        "text": "Bees produce honey."
+      },
+      {
+        "title": "Honey",
+        "text": "Honey is made by bees."
+      }
+    ]
+  },
+  {
+    "qid": "hp29",
+    "difficulty": "medium",
+    "question": "What mountain range is Mount Everest part of?",
     "gold_answer": "Himalayas",
     "context": [
       {
-        "title": "Kathmandu",
-        "text": "Kathmandu is the capital city of Nepal."
+        "title": "Mount Everest",
+        "text": "Mount Everest is the highest mountain in the world."
       },
       {
-        "title": "Nepal",
-        "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."
+        "title": "Himalayas",
+        "text": "Mount Everest is part of the Himalayas."
       }
     ]
+  },
+  {
+    "qid": "hp30",
+    "difficulty": "easy",
+    "question": "What is H2O commonly known as?",
+    "gold_answer": "water",
+    "context": [
+      {
+        "title": "H2O",
+        "text": "H2O is the chemical formula for water."
+      },
+      {
+        "title": "Water",
+        "text": "Water is essential for life."
+      }
+    ]
+  },
+  {
+    "qid": "hp31",
+    "difficulty": "easy",
+    "question": "What country is the Great Wall located in?",
+    "gold_answer": "China",
+    "context": [
+      {
+        "title": "Great Wall",
+        "text": "The Great Wall is a historic fortification in China."
+      },
+      {
+        "title": "China",
+        "text": "China is a country in East Asia."
+      }
+    ]
+  },
+  {
+    "qid": "hp32",
+    "difficulty": "medium",
+    "question": "What continent is Argentina located in?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Argentina",
+        "text": "Argentina is a country in South America."
+      },
+      {
+        "title": "South America",
+        "text": "South America is a continent in the Western Hemisphere."
+      }
+    ]
+  },
+  {
+    "qid": "hp33",
+    "difficulty": "easy",
+    "question": "What do cows produce that humans drink?",
+    "gold_answer": "milk",
+    "context": [
+      {
+        "title": "Cows",
+        "text": "Cows produce milk."
+      },
+      {
+        "title": "Milk",
+        "text": "Milk is consumed by humans."
+      }
+    ]
+  },
+  {
+    "qid": "hp34",
+    "difficulty": "medium",
+    "question": "Which country has Rome as its capital?",
+    "gold_answer": "Italy",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy is a European country."
+      }
+    ]
+  },
+  {
+    "qid": "hp35",
+    "difficulty": "easy",
+    "question": "What planet is known as the Blue Planet?",
+    "gold_answer": "Earth",
+    "context": [
+      {
+        "title": "Earth",
+        "text": "Earth is often called the Blue Planet."
+      },
+      {
+        "title": "Blue Planet",
+        "text": "Earth appears blue due to water."
+      }
+    ]
+  },
+  {
+    "qid": "hp36",
+    "difficulty": "medium",
+    "question": "Which ocean is next to Australia?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Australia",
+        "text": "Australia is surrounded by the Indian Ocean and Pacific Ocean."
+      },
+      {
+        "title": "Indian Ocean",
+        "text": "The Indian Ocean lies to the west of Australia."
+      }
+    ]
+  },
+  {
+    "qid": "hp37",
+    "difficulty": "easy",
+    "question": "What gas do humans need to breathe?",
+    "gold_answer": "oxygen",
+    "context": [
+      {
+        "title": "Humans",
+        "text": "Humans require oxygen to survive."
+      },
+      {
+        "title": "Oxygen",
+        "text": "Oxygen is essential for respiration."
+      }
+    ]
+  },
+  {
+    "qid": "hp38",
+    "difficulty": "medium",
+    "question": "What river flows through Cairo?",
+    "gold_answer": "Nile",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is a city in Egypt."
+      },
+      {
+        "title": "Nile River",
+        "text": "The Nile flows through Cairo."
+      }
+    ]
+  },
+  {
+    "qid": "hp39",
+    "difficulty": "easy",
+    "question": "What animal is known as man's best friend?",
+    "gold_answer": "dog",
+    "context": [
+      {
+        "title": "Dog",
+        "text": "Dogs are often called man's best friend."
+      },
+      {
+        "title": "Pets",
+        "text": "Dogs are common pets."
+      }
+    ]
+  },
+  {
+    "qid": "hp40",
+    "difficulty": "medium",
+    "question": "Which country is the Taj Mahal located in?",
+    "gold_answer": "India",
+    "context": [
+      {
+        "title": "Taj Mahal",
+        "text": "The Taj Mahal is located in Agra."
+      },
+      {
+        "title": "Agra",
+        "text": "Agra is a city in India."
+      }
+    ]
+  },
+  {
+    "qid": "hp41",
+    "difficulty": "easy",
+    "question": "What do chickens lay?",
+    "gold_answer": "eggs",
+    "context": [
+      {
+        "title": "Chickens",
+        "text": "Chickens lay eggs."
+      },
+      {
+        "title": "Eggs",
+        "text": "Eggs are used for food."
+      }
+    ]
+  },
+  {
+    "qid": "hp42",
+    "difficulty": "medium",
+    "question": "Which continent is Germany located in?",
+    "gold_answer": "Europe",
+    "context": [
+      {
+        "title": "Germany",
+        "text": "Germany is located in Europe."
+      },
+      {
+        "title": "Europe",
+        "text": "Europe is a continent."
+      }
+    ]
+  },
+  {
+    "qid": "hp43",
+    "difficulty": "easy",
+    "question": "What fruit is typically yellow and curved?",
+    "gold_answer": "banana",
+    "context": [
+      {
+        "title": "Banana",
+        "text": "Bananas are yellow and curved fruits."
+      },
+      {
+        "title": "Fruits",
+        "text": "Bananas are fruits."
+      }
+    ]
+  },
+  {
+    "qid": "hp44",
+    "difficulty": "medium",
+    "question": "Which country has Madrid as its capital?",
+    "gold_answer": "Spain",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "Spain is in Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp45",
+    "difficulty": "easy",
+    "question": "What is the boiling point of water in Celsius?",
+    "gold_answer": "100",
+    "context": [
+      {
+        "title": "Water",
+        "text": "Water boils at 100 degrees Celsius."
+      },
+      {
+        "title": "Boiling Point",
+        "text": "100°C is the boiling point of water."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Who was the monarch of the country where Shakespeare was born during the year he died?",
+    "gold_answer": "King James I",
+    "context": [
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was born in Stratford-upon-Avon, England, and died in 1616."
+      },
+      {
+        "title": "English Monarchs",
+        "text": "In 1616, the ruling monarch of England was King James I, who succeeded Queen Elizabeth I in 1603."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Queen Elizabeth I was the monarch when Shakespeare was born in 1564."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Shakespeare's playing company was called the Lord Chamberlain's Men, later the King's Men."
+      }
+    ],
+    "qid": "hp46"
+  },
+  {
+    "qid": "hp47",
+    "difficulty": "easy",
+    "question": "What star is at the center of our solar system?",
+    "gold_answer": "Sun",
+    "context": [
+      {
+        "title": "Solar System",
+        "text": "The Sun is at the center of the solar system."
+      },
+      {
+        "title": "Sun",
+        "text": "The Sun is a star."
+      }
+    ]
+  },
+  {
+    "qid": "hp48",
+    "difficulty": "medium",
+    "question": "Which country is Mount Fuji located in?",
+    "gold_answer": "Japan",
+    "context": [
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji is in Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan is an island country in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "hp49",
+    "difficulty": "easy",
+    "question": "What do fish use to breathe?",
+    "gold_answer": "gills",
+    "context": [
+      {
+        "title": "Fish",
+        "text": "Fish use gills to breathe underwater."
+      },
+      {
+        "title": "Gills",
+        "text": "Gills extract oxygen from water."
+      }
+    ]
+  },
+  {
+    "qid": "hp50",
+    "difficulty": "medium",
+    "question": "Which country is the Colosseum located in?",
+    "gold_answer": "Italy",
+    "context": [
+      {
+        "title": "Colosseum",
+        "text": "The Colosseum is located in Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is in Italy."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the atomic number of the element that gives the Red Planet its distinct color?",
+    "gold_answer": "26",
+    "context": [
+      {
+        "title": "Red Planet",
+        "text": "Mars is known as the Red Planet because its surface is covered in iron oxide dust."
+      },
+      {
+        "title": "Iron",
+        "text": "Iron is a chemical element with symbol Fe and atomic number 26."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Oxygen has an atomic number of 8 and combines with iron to form iron oxide."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Mars is the fourth planet from the Sun."
+      }
+    ],
+    "qid": "hp51"
+  },
+  {
+    "qid": "hp52",
+    "difficulty": "medium",
+    "question": "Which continent is Egypt located in?",
+    "gold_answer": "Africa",
+    "context": [
+      {
+        "title": "Egypt",
+        "text": "Egypt is located in Africa."
+      },
+      {
+        "title": "Africa",
+        "text": "Africa is a continent."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sea lies to the east of the country whose capital is Rome?",
+    "gold_answer": "Adriatic Sea",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy geography",
+        "text": "Italy is a peninsula in southern Europe. It is bordered by the Adriatic Sea to its east and the Tyrrhenian Sea to its west."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Mediterranean Sea lies to the south of Italy."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Greece is located to the east of the Adriatic Sea and its capital is Athens."
+      }
+    ],
+    "qid": "hp53"
+  },
+  {
+    "qid": "hp54",
+    "difficulty": "medium",
+    "question": "Which country has Ottawa as its capital?",
+    "gold_answer": "Canada",
+    "context": [
+      {
+        "title": "Ottawa",
+        "text": "Ottawa is the capital of Canada."
+      },
+      {
+        "title": "Canada",
+        "text": "Canada is in North America."
+      }
+    ]
+  },
+  {
+    "qid": "hp55",
+    "difficulty": "easy",
+    "question": "What do plants need sunlight for?",
+    "gold_answer": "photosynthesis",
+    "context": [
+      {
+        "title": "Plants",
+        "text": "Plants use sunlight for photosynthesis."
+      },
+      {
+        "title": "Photosynthesis",
+        "text": "Photosynthesis produces energy."
+      }
+    ]
+  },
+  {
+    "qid": "hp56",
+    "difficulty": "medium",
+    "question": "Which country is Seoul the capital of?",
+    "gold_answer": "South Korea",
+    "context": [
+      {
+        "title": "Seoul",
+        "text": "Seoul is the capital of South Korea."
+      },
+      {
+        "title": "South Korea",
+        "text": "South Korea is in Asia."
+      }
+    ]
+  },
+  {
+    "qid": "hp57",
+    "difficulty": "easy",
+    "question": "What do birds use to fly?",
+    "gold_answer": "wings",
+    "context": [
+      {
+        "title": "Birds",
+        "text": "Birds use wings to fly."
+      },
+      {
+        "title": "Wings",
+        "text": "Wings allow flight."
+      }
+    ]
+  },
+  {
+    "qid": "hp58",
+    "difficulty": "medium",
+    "question": "Which country is the Amazon River located in?",
+    "gold_answer": "Brazil",
+    "context": [
+      {
+        "title": "Amazon River",
+        "text": "The Amazon River flows through Brazil."
+      },
+      {
+        "title": "Brazil",
+        "text": "Brazil is in South America."
+      }
+    ]
+  },
+  {
+    "qid": "hp59",
+    "difficulty": "easy",
+    "question": "What do you call frozen water?",
+    "gold_answer": "ice",
+    "context": [
+      {
+        "title": "Water",
+        "text": "Frozen water is called ice."
+      },
+      {
+        "title": "Ice",
+        "text": "Ice is solid water."
+      }
+    ]
+  },
+  {
+    "qid": "hp60",
+    "difficulty": "medium",
+    "question": "Which country is Beijing the capital of?",
+    "gold_answer": "China",
+    "context": [
+      {
+        "title": "Beijing",
+        "text": "Beijing is the capital of China."
+      },
+      {
+        "title": "China",
+        "text": "China is in Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What currency is used by the country that is home to the tallest building in the world?",
+    "gold_answer": "UAE dirham",
+    "context": [
+      {
+        "title": "Tallest building",
+        "text": "The Burj Khalifa is the tallest building in the world, located in Dubai."
+      },
+      {
+        "title": "Dubai",
+        "text": "Dubai is the most populous city in the United Arab Emirates (UAE)."
+      },
+      {
+        "title": "UAE currency",
+        "text": "The official currency of the United Arab Emirates is the UAE dirham."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Saudi Arabia, which planned to build the Jeddah Tower, uses the Saudi riyal."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The United States dollar is widely accepted in many international airports, including Dubai's."
+      }
+    ],
+    "qid": "hp61"
+  },
+  {
+    "qid": "hp62",
+    "difficulty": "medium",
+    "question": "Which country is London the capital of?",
+    "gold_answer": "United Kingdom",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The UK is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What gas is produced during the biological process that takes place in the chloroplasts of plants?",
+    "gold_answer": "oxygen",
+    "context": [
+      {
+        "title": "Chloroplasts",
+        "text": "Chloroplasts are the organelles in plant cells where photosynthesis occurs."
+      },
+      {
+        "title": "Photosynthesis process",
+        "text": "During photosynthesis, plants take in carbon dioxide and water to produce glucose and release oxygen as a byproduct."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "In cellular respiration, which happens in mitochondria, oxygen is consumed and carbon dioxide is produced."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Nitrogen is the most abundant gas in the Earth's atmosphere."
+      }
+    ],
+    "qid": "hp63"
+  },
+  {
+    "qid": "hp64",
+    "difficulty": "medium",
+    "question": "Which country is Moscow the capital of?",
+    "gold_answer": "Russia",
+    "context": [
+      {
+        "title": "Moscow",
+        "text": "Moscow is the capital of Russia."
+      },
+      {
+        "title": "Russia",
+        "text": "Russia is a large country."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the profession of the person who directed the movie starring the lead actor of 'Mission: Impossible - Ghost Protocol'?",
+    "gold_answer": "film director",
+    "context": [
+      {
+        "title": "Mission: Impossible - Ghost Protocol",
+        "text": "The lead actor of Mission: Impossible - Ghost Protocol is Tom Cruise."
+      },
+      {
+        "title": "Tom Cruise movies",
+        "text": "Tom Cruise starred in 'Top Gun: Maverick', which was directed by Joseph Kosinski."
+      },
+      {
+        "title": "Joseph Kosinski",
+        "text": "Joseph Kosinski is an American film director and architect."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Christopher McQuarrie directed Mission: Impossible - Fallout."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Tom Cruise is a famous American actor and producer."
+      }
+    ],
+    "qid": "hp65"
+  },
+  {
+    "qid": "hp66",
+    "difficulty": "medium",
+    "question": "Which country is Bangkok the capital of?",
+    "gold_answer": "Thailand",
+    "context": [
+      {
+        "title": "Bangkok",
+        "text": "Bangkok is the capital of Thailand."
+      },
+      {
+        "title": "Thailand",
+        "text": "Thailand is in Southeast Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the capital city of the country where the inventor of the telephone was born?",
+    "gold_answer": "London",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell, the inventor of the telephone, was born in Edinburgh, Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is a country that is part of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The capital city of the United Kingdom is London."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Alexander Graham Bell spent much of his life in the United States, whose capital is Washington, D.C."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The telephone was patented in 1876 in Boston, Massachusetts."
+      }
+    ],
+    "qid": "hp67"
+  },
+  {
+    "qid": "hp68",
+    "difficulty": "medium",
+    "question": "Which country is Canberra the capital of?",
+    "gold_answer": "Australia",
+    "context": [
+      {
+        "title": "Canberra",
+        "text": "Canberra is the capital of Australia."
+      },
+      {
+        "title": "Australia",
+        "text": "Australia is a country and continent."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which ocean borders the country that gifted the Statue of Liberty to the USA?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty was a gift from the people of France to the United States."
+      },
+      {
+        "title": "France geography",
+        "text": "France is a country in Western Europe that borders the Atlantic Ocean and the Mediterranean Sea."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The United States borders the Pacific Ocean to the west and the Atlantic Ocean to the east."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Statue of Liberty is located in New York Harbor."
+      }
+    ],
+    "qid": "hp69"
+  },
+  {
+    "qid": "hp70",
+    "difficulty": "medium",
+    "question": "Which country is Nairobi the capital of?",
+    "gold_answer": "Kenya",
+    "context": [
+      {
+        "title": "Nairobi",
+        "text": "Nairobi is the capital of Kenya."
+      },
+      {
+        "title": "Kenya",
+        "text": "Kenya is in Africa."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the primary language spoken in the city that hosted the 2016 Summer Olympics?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "2016 Summer Olympics",
+        "text": "The 2016 Summer Olympics were held in Rio de Janeiro."
+      },
+      {
+        "title": "Rio de Janeiro",
+        "text": "Rio de Janeiro is a major city in Brazil."
+      },
+      {
+        "title": "Brazil languages",
+        "text": "The primary and official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The 2020 Summer Olympics were held in Tokyo, where Japanese is spoken."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Spanish is the primary language of most South American countries except Brazil."
+      }
+    ],
+    "qid": "hp71"
+  },
+  {
+    "qid": "hp72",
+    "difficulty": "medium",
+    "question": "Which country is Ankara the capital of?",
+    "gold_answer": "Turkey",
+    "context": [
+      {
+        "title": "Ankara",
+        "text": "Ankara is the capital of Turkey."
+      },
+      {
+        "title": "Turkey",
+        "text": "Turkey spans Europe and Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What mountain range is located in the continent where the longest river in the world flows?",
+    "gold_answer": "Atlas Mountains",
+    "context": [
+      {
+        "title": "Longest river",
+        "text": "The Nile River is traditionally considered the longest river in the world."
+      },
+      {
+        "title": "Nile River",
+        "text": "The Nile River flows through northeastern Africa."
+      },
+      {
+        "title": "Mountains of Africa",
+        "text": "The Atlas Mountains are a mountain range in the Maghreb region of North Africa."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Amazon River, the second longest river, flows through South America where the Andes mountains are located."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Himalayas are the highest mountain range in the world, located in Asia."
+      }
+    ],
+    "qid": "hp73"
+  },
+  {
+    "qid": "hp74",
+    "difficulty": "medium",
+    "question": "Which country is Oslo the capital of?",
+    "gold_answer": "Norway",
+    "context": [
+      {
+        "title": "Oslo",
+        "text": "Oslo is the capital of Norway."
+      },
+      {
+        "title": "Norway",
+        "text": "Norway is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Who was the monarch of the country where Shakespeare was born during the year he died?",
+    "gold_answer": "King James I",
+    "context": [
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was born in Stratford-upon-Avon, England, and died in 1616."
+      },
+      {
+        "title": "English Monarchs",
+        "text": "In 1616, the ruling monarch of England was King James I, who succeeded Queen Elizabeth I in 1603."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Queen Elizabeth I was the monarch when Shakespeare was born in 1564."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Shakespeare's playing company was called the Lord Chamberlain's Men, later the King's Men."
+      }
+    ],
+    "qid": "hp75"
+  },
+  {
+    "qid": "hp76",
+    "difficulty": "medium",
+    "question": "Which country is Helsinki the capital of?",
+    "gold_answer": "Finland",
+    "context": [
+      {
+        "title": "Helsinki",
+        "text": "Helsinki is the capital of Finland."
+      },
+      {
+        "title": "Finland",
+        "text": "Finland is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the atomic number of the element that gives the Red Planet its distinct color?",
+    "gold_answer": "26",
+    "context": [
+      {
+        "title": "Red Planet",
+        "text": "Mars is known as the Red Planet because its surface is covered in iron oxide dust."
+      },
+      {
+        "title": "Iron",
+        "text": "Iron is a chemical element with symbol Fe and atomic number 26."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Oxygen has an atomic number of 8 and combines with iron to form iron oxide."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Mars is the fourth planet from the Sun."
+      }
+    ],
+    "qid": "hp77"
+  },
+  {
+    "qid": "hp78",
+    "difficulty": "medium",
+    "question": "Which country is Vienna the capital of?",
+    "gold_answer": "Austria",
+    "context": [
+      {
+        "title": "Vienna",
+        "text": "Vienna is the capital of Austria."
+      },
+      {
+        "title": "Austria",
+        "text": "Austria is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sea lies to the east of the country whose capital is Rome?",
+    "gold_answer": "Adriatic Sea",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy geography",
+        "text": "Italy is a peninsula in southern Europe. It is bordered by the Adriatic Sea to its east and the Tyrrhenian Sea to its west."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Mediterranean Sea lies to the south of Italy."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Greece is located to the east of the Adriatic Sea and its capital is Athens."
+      }
+    ],
+    "qid": "hp79"
+  },
+  {
+    "qid": "hp80",
+    "difficulty": "medium",
+    "question": "Which country is Lisbon the capital of?",
+    "gold_answer": "Portugal",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What currency is used by the country that is home to the tallest building in the world?",
+    "gold_answer": "UAE dirham",
+    "context": [
+      {
+        "title": "Tallest building",
+        "text": "The Burj Khalifa is the tallest building in the world, located in Dubai."
+      },
+      {
+        "title": "Dubai",
+        "text": "Dubai is the most populous city in the United Arab Emirates (UAE)."
+      },
+      {
+        "title": "UAE currency",
+        "text": "The official currency of the United Arab Emirates is the UAE dirham."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Saudi Arabia, which planned to build the Jeddah Tower, uses the Saudi riyal."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The United States dollar is widely accepted in many international airports, including Dubai's."
+      }
+    ],
+    "qid": "hp81"
+  },
+  {
+    "qid": "hp82",
+    "difficulty": "medium",
+    "question": "Which country is Dublin the capital of?",
+    "gold_answer": "Ireland",
+    "context": [
+      {
+        "title": "Dublin",
+        "text": "Dublin is the capital of Ireland."
+      },
+      {
+        "title": "Ireland",
+        "text": "Ireland is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What gas is produced during the biological process that takes place in the chloroplasts of plants?",
+    "gold_answer": "oxygen",
+    "context": [
+      {
+        "title": "Chloroplasts",
+        "text": "Chloroplasts are the organelles in plant cells where photosynthesis occurs."
+      },
+      {
+        "title": "Photosynthesis process",
+        "text": "During photosynthesis, plants take in carbon dioxide and water to produce glucose and release oxygen as a byproduct."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "In cellular respiration, which happens in mitochondria, oxygen is consumed and carbon dioxide is produced."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Nitrogen is the most abundant gas in the Earth's atmosphere."
+      }
+    ],
+    "qid": "hp83"
+  },
+  {
+    "qid": "hp84",
+    "difficulty": "medium",
+    "question": "Which country is Budapest the capital of?",
+    "gold_answer": "Hungary",
+    "context": [
+      {
+        "title": "Budapest",
+        "text": "Budapest is the capital of Hungary."
+      },
+      {
+        "title": "Hungary",
+        "text": "Hungary is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the profession of the person who directed the movie starring the lead actor of 'Mission: Impossible - Ghost Protocol'?",
+    "gold_answer": "film director",
+    "context": [
+      {
+        "title": "Mission: Impossible - Ghost Protocol",
+        "text": "The lead actor of Mission: Impossible - Ghost Protocol is Tom Cruise."
+      },
+      {
+        "title": "Tom Cruise movies",
+        "text": "Tom Cruise starred in 'Top Gun: Maverick', which was directed by Joseph Kosinski."
+      },
+      {
+        "title": "Joseph Kosinski",
+        "text": "Joseph Kosinski is an American film director and architect."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Christopher McQuarrie directed Mission: Impossible - Fallout."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Tom Cruise is a famous American actor and producer."
+      }
+    ],
+    "qid": "hp85"
+  },
+  {
+    "qid": "hp86",
+    "difficulty": "medium",
+    "question": "Which country is Prague the capital of?",
+    "gold_answer": "Czech Republic",
+    "context": [
+      {
+        "title": "Prague",
+        "text": "Prague is the capital of the Czech Republic."
+      },
+      {
+        "title": "Czech Republic",
+        "text": "It is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the capital city of the country where the inventor of the telephone was born?",
+    "gold_answer": "London",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell, the inventor of the telephone, was born in Edinburgh, Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is a country that is part of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The capital city of the United Kingdom is London."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Alexander Graham Bell spent much of his life in the United States, whose capital is Washington, D.C."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The telephone was patented in 1876 in Boston, Massachusetts."
+      }
+    ],
+    "qid": "hp87"
+  },
+  {
+    "qid": "hp88",
+    "difficulty": "medium",
+    "question": "Which country is Warsaw the capital of?",
+    "gold_answer": "Poland",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "Poland is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which ocean borders the country that gifted the Statue of Liberty to the USA?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty was a gift from the people of France to the United States."
+      },
+      {
+        "title": "France geography",
+        "text": "France is a country in Western Europe that borders the Atlantic Ocean and the Mediterranean Sea."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The United States borders the Pacific Ocean to the west and the Atlantic Ocean to the east."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Statue of Liberty is located in New York Harbor."
+      }
+    ],
+    "qid": "hp89"
+  },
+  {
+    "qid": "hp90",
+    "difficulty": "medium",
+    "question": "Which country is Brussels the capital of?",
+    "gold_answer": "Belgium",
+    "context": [
+      {
+        "title": "Brussels",
+        "text": "Brussels is the capital of Belgium."
+      },
+      {
+        "title": "Belgium",
+        "text": "Belgium is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the primary language spoken in the city that hosted the 2016 Summer Olympics?",
+    "gold_answer": "Portuguese",
+    "context": [
+      {
+        "title": "2016 Summer Olympics",
+        "text": "The 2016 Summer Olympics were held in Rio de Janeiro."
+      },
+      {
+        "title": "Rio de Janeiro",
+        "text": "Rio de Janeiro is a major city in Brazil."
+      },
+      {
+        "title": "Brazil languages",
+        "text": "The primary and official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The 2020 Summer Olympics were held in Tokyo, where Japanese is spoken."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Spanish is the primary language of most South American countries except Brazil."
+      }
+    ],
+    "qid": "hp91"
+  },
+  {
+    "qid": "hp92",
+    "difficulty": "medium",
+    "question": "Which continent is Peru located in?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Peru",
+        "text": "Peru is a country in South America."
+      },
+      {
+        "title": "South America",
+        "text": "South America is a continent."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What mountain range is located in the continent where the longest river in the world flows?",
+    "gold_answer": "Atlas Mountains",
+    "context": [
+      {
+        "title": "Longest river",
+        "text": "The Nile River is traditionally considered the longest river in the world."
+      },
+      {
+        "title": "Nile River",
+        "text": "The Nile River flows through northeastern Africa."
+      },
+      {
+        "title": "Mountains of Africa",
+        "text": "The Atlas Mountains are a mountain range in the Maghreb region of North Africa."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Amazon River, the second longest river, flows through South America where the Andes mountains are located."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Himalayas are the highest mountain range in the world, located in Asia."
+      }
+    ],
+    "qid": "hp93"
+  },
+  {
+    "qid": "hp94",
+    "difficulty": "medium",
+    "question": "Which country is Mexico City the capital of?",
+    "gold_answer": "Mexico",
+    "context": [
+      {
+        "title": "Mexico City",
+        "text": "Mexico City is the capital of Mexico."
+      },
+      {
+        "title": "Mexico",
+        "text": "Mexico is in North America."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Who was the monarch of the country where Shakespeare was born during the year he died?",
+    "gold_answer": "King James I",
+    "context": [
+      {
+        "title": "William Shakespeare",
+        "text": "William Shakespeare was born in Stratford-upon-Avon, England, and died in 1616."
+      },
+      {
+        "title": "English Monarchs",
+        "text": "In 1616, the ruling monarch of England was King James I, who succeeded Queen Elizabeth I in 1603."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Queen Elizabeth I was the monarch when Shakespeare was born in 1564."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Shakespeare's playing company was called the Lord Chamberlain's Men, later the King's Men."
+      }
+    ],
+    "qid": "hp95"
+  },
+  {
+    "qid": "hp96",
+    "difficulty": "medium",
+    "question": "Which country is Santiago the capital of?",
+    "gold_answer": "Chile",
+    "context": [
+      {
+        "title": "Santiago",
+        "text": "Santiago is the capital of Chile."
+      },
+      {
+        "title": "Chile",
+        "text": "Chile is in South America."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the atomic number of the element that gives the Red Planet its distinct color?",
+    "gold_answer": "26",
+    "context": [
+      {
+        "title": "Red Planet",
+        "text": "Mars is known as the Red Planet because its surface is covered in iron oxide dust."
+      },
+      {
+        "title": "Iron",
+        "text": "Iron is a chemical element with symbol Fe and atomic number 26."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Oxygen has an atomic number of 8 and combines with iron to form iron oxide."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Mars is the fourth planet from the Sun."
+      }
+    ],
+    "qid": "hp97"
+  },
+  {
+    "qid": "hp98",
+    "difficulty": "medium",
+    "question": "Which country is Jakarta the capital of?",
+    "gold_answer": "Indonesia",
+    "context": [
+      {
+        "title": "Jakarta",
+        "text": "Jakarta is the capital of Indonesia."
+      },
+      {
+        "title": "Indonesia",
+        "text": "Indonesia is in Southeast Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which sea lies to the east of the country whose capital is Rome?",
+    "gold_answer": "Adriatic Sea",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital city of Italy."
+      },
+      {
+        "title": "Italy geography",
+        "text": "Italy is a peninsula in southern Europe. It is bordered by the Adriatic Sea to its east and the Tyrrhenian Sea to its west."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The Mediterranean Sea lies to the south of Italy."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Greece is located to the east of the Adriatic Sea and its capital is Athens."
+      }
+    ],
+    "qid": "hp99"
+  },
+  {
+    "qid": "hp100",
+    "difficulty": "medium",
+    "question": "Which country is Kuala Lumpur the capital of?",
+    "gold_answer": "Malaysia",
+    "context": [
+      {
+        "title": "Kuala Lumpur",
+        "text": "Kuala Lumpur is the capital of Malaysia."
+      },
+      {
+        "title": "Malaysia",
+        "text": "Malaysia is in Southeast Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What currency is used by the country that is home to the tallest building in the world?",
+    "gold_answer": "UAE dirham",
+    "context": [
+      {
+        "title": "Tallest building",
+        "text": "The Burj Khalifa is the tallest building in the world, located in Dubai."
+      },
+      {
+        "title": "Dubai",
+        "text": "Dubai is the most populous city in the United Arab Emirates (UAE)."
+      },
+      {
+        "title": "UAE currency",
+        "text": "The official currency of the United Arab Emirates is the UAE dirham."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Saudi Arabia, which planned to build the Jeddah Tower, uses the Saudi riyal."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The United States dollar is widely accepted in many international airports, including Dubai's."
+      }
+    ],
+    "qid": "hp101"
+  },
+  {
+    "qid": "hp102",
+    "difficulty": "medium",
+    "question": "Which country is Riyadh the capital of?",
+    "gold_answer": "Saudi Arabia",
+    "context": [
+      {
+        "title": "Riyadh",
+        "text": "Riyadh is the capital of Saudi Arabia."
+      },
+      {
+        "title": "Saudi Arabia",
+        "text": "Saudi Arabia is in the Middle East."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What gas is produced during the biological process that takes place in the chloroplasts of plants?",
+    "gold_answer": "oxygen",
+    "context": [
+      {
+        "title": "Chloroplasts",
+        "text": "Chloroplasts are the organelles in plant cells where photosynthesis occurs."
+      },
+      {
+        "title": "Photosynthesis process",
+        "text": "During photosynthesis, plants take in carbon dioxide and water to produce glucose and release oxygen as a byproduct."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "In cellular respiration, which happens in mitochondria, oxygen is consumed and carbon dioxide is produced."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Nitrogen is the most abundant gas in the Earth's atmosphere."
+      }
+    ],
+    "qid": "hp103"
+  },
+  {
+    "qid": "hp104",
+    "difficulty": "medium",
+    "question": "Which country is Tehran the capital of?",
+    "gold_answer": "Iran",
+    "context": [
+      {
+        "title": "Tehran",
+        "text": "Tehran is the capital of Iran."
+      },
+      {
+        "title": "Iran",
+        "text": "Iran is in the Middle East."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the profession of the person who directed the movie starring the lead actor of 'Mission: Impossible - Ghost Protocol'?",
+    "gold_answer": "film director",
+    "context": [
+      {
+        "title": "Mission: Impossible - Ghost Protocol",
+        "text": "The lead actor of Mission: Impossible - Ghost Protocol is Tom Cruise."
+      },
+      {
+        "title": "Tom Cruise movies",
+        "text": "Tom Cruise starred in 'Top Gun: Maverick', which was directed by Joseph Kosinski."
+      },
+      {
+        "title": "Joseph Kosinski",
+        "text": "Joseph Kosinski is an American film director and architect."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Christopher McQuarrie directed Mission: Impossible - Fallout."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "Tom Cruise is a famous American actor and producer."
+      }
+    ],
+    "qid": "hp105"
+  },
+  {
+    "qid": "hp106",
+    "difficulty": "medium",
+    "question": "Which country is Athens the capital of?",
+    "gold_answer": "Greece",
+    "context": [
+      {
+        "title": "Athens",
+        "text": "Athens is the capital of Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "Greece is in Europe."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "What is the capital city of the country where the inventor of the telephone was born?",
+    "gold_answer": "London",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell, the inventor of the telephone, was born in Edinburgh, Scotland."
+      },
+      {
+        "title": "Scotland",
+        "text": "Scotland is a country that is part of the United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "The capital city of the United Kingdom is London."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "Alexander Graham Bell spent much of his life in the United States, whose capital is Washington, D.C."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The telephone was patented in 1876 in Boston, Massachusetts."
+      }
+    ],
+    "qid": "hp107"
+  },
+  {
+    "qid": "hp108",
+    "difficulty": "medium",
+    "question": "Which country is Islamabad the capital of?",
+    "gold_answer": "Pakistan",
+    "context": [
+      {
+        "title": "Islamabad",
+        "text": "Islamabad is the capital of Pakistan."
+      },
+      {
+        "title": "Pakistan",
+        "text": "Pakistan is in South Asia."
+      }
+    ]
+  },
+  {
+    "difficulty": "hard",
+    "question": "Which ocean borders the country that gifted the Statue of Liberty to the USA?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Statue of Liberty",
+        "text": "The Statue of Liberty was a gift from the people of France to the United States."
+      },
+      {
+        "title": "France geography",
+        "text": "France is a country in Western Europe that borders the Atlantic Ocean and the Mediterranean Sea."
+      },
+      {
+        "title": "Distractor 1",
+        "text": "The United States borders the Pacific Ocean to the west and the Atlantic Ocean to the east."
+      },
+      {
+        "title": "Distractor 2",
+        "text": "The Statue of Liberty is located in New York Harbor."
+      }
+    ],
+    "qid": "hp109"
   }
 ]
